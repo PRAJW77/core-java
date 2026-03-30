@@ -6,19 +6,19 @@ class GenderRunner{
 		gender.save("Male");
 		gender.save("Female");
 		gender.save("Others");
-		System.out.println("===\n===");
+		System.out.println("#################");
 		
-		gender.printInfo();
-		System.out.println("===\n===");
+		gender.Display();
+		System.out.println("#################");
 		
 		gender.sortAscending();
-		System.out.println("Sorting in Ascending order");
-        gender.printInfo();
+		System.out.println("Sort Ascending order");
+        gender.Display();
 		
-		System.out.println("===\n===");
+		System.out.println("#################");
 
 		gender.sortDescending();
-		System.out.println("Sorting in descending order ");
-        gender.printInfo();
+		System.out.println("Sort descending order ");
+        gender.Display();
 	}
 }

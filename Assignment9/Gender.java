@@ -7,7 +7,7 @@ class Gender{
 	}
 	
 	void save(String gender){
-		System.out.println("Executing save in Genders");
+		System.out.println("Executing save");
 		System.out.println("Gender:"+gender);
 		
 		if(this.genders != null && gender != null){
@@ -17,23 +17,20 @@ class Gender{
 				this.genders[currentIndex]=gender;
 				currentIndex++;
 			}else{
-				System.out.println("Array is full we cannot store more...");
+				System.out.println("Array is full ");
 			}
 		}else{
 			System.out.println("Genders and gender are NUll");
 		}
 	}
 
-	void printInfo(){
-		System.out.println("Printing all the Genders");
-		if(this.genders != null){
+	void Display()
+	{
 			for(int i=0;i<=this.genders.length-1;i++){
 				System.out.println("Gender:"+genders[i]);
 			}
-		}else{
-			System.out.println("The array is null...");
 		}
-	}
+	
 
 	void sortAscending(){
 

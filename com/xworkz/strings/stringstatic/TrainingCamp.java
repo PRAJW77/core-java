@@ -9,6 +9,7 @@ public class TrainingCamp {
         String join1 = String.join("", unit, base);
         System.out.println(join1);
 
+
         String join2 = String.join("-", "Air Force", "Bangalore");
         System.out.println(join2);
 

@@ -13,6 +13,7 @@ public class Defense {
         System.out.println(Arrays.toString(unit.toCharArray()));
         System.out.println(Arrays.toString(base.toCharArray()));
 
+
         System.out.println(unit);
         System.out.println(base);
 
@@ -32,6 +33,8 @@ public class Defense {
         System.out.println(unit.codePointCount(0, unit.length()));
 
         System.out.println(unit.compareTo(base));
+
+
 
         System.out.println(unit.concat(" Operations"));
 
